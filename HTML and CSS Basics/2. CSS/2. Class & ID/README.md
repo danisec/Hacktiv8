@@ -30,7 +30,7 @@
 
     Misalnya :
 
-        Paragraph HTML
+    Paragraph HTML
 
     `<p id="main-text">`
 
