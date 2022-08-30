@@ -12,6 +12,10 @@ const btn = {
   outline: 0,
   cursor: "pointer",
   userSelect: "none",
+  ":hover": {
+    transition: "all .1s",
+    color: "#8C9EA3",
+  },
 };
 
 const prev = {
