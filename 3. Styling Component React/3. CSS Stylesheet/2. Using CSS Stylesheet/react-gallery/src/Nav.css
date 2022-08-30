@@ -1,0 +1,47 @@
+@keyframes pulse {
+    0% {
+        transform: scale(1, 1, 1);
+    }
+    15% {
+        transform: scale(1.05, 1.05, 1.05);
+    }
+    100% {
+        transform: scale(1, 1, 1);
+    }
+}
+
+.gallery__nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+
+.gallery__nav__btn {
+    flex: 1;
+    height: var(--imageHeight);
+    font-size: 50px;
+    background: transparent;
+    color: #FFF;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    vertical-align: top;
+    cursor: pointer;
+    user-select: none;
+    outline: 0;
+    animation: pulse 1s infinite;
+}
+
+.gallery__nav__btn:hover {
+    transition: all 0.5s;
+    color: #8C9EA3;
+}
+
+.gallery__nav__btn--prev {
+    text-align: left;
+}
+
+.gallery__nav__btn--next {
+    text-align: right;
+}
