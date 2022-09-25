@@ -1,4 +1,4 @@
-# 3rd Party Component
+# Component Installation and Use
 
 Selain component-component yang disediakan oleh React Native seperti button, text, view atau flatlist kita juga dapat menggunakan component yang dibuat oleh komunitas atau 3rd party component.
 
